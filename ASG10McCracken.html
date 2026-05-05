@@ -1,0 +1,90 @@
+<!--Conner McCracken, 02/11/26, Assignment 8, HTML Forms-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Conner's Form</title>
+</head>
+<body>
+    <form action="thankyou.html">
+        <!-- Start of customer information -->
+
+    <h1>Customer Information</h1>
+    <table>
+        <tr>
+            <td><label> First Name</label></td>
+            <td><input type="text" placeholder="First Name"></td>
+        </tr>
+        <tr>
+            <td><label> Last Name </label></td>
+            <td><input type="text" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+            <td><label> Phone Number</label></td>
+            <td><input type="text" placeholder="Phone Number"></td>
+        </tr>
+        <tr>
+            <td><label> Email Address</label></td>
+            <td><input type="text" placeholder="Email Address"></td>
+        </tr>
+        <tr>
+            <td><label> Street Address</label></td>
+            <td><input type="text" placeholder="Street Address"></td>
+        </tr>
+    </table>
+
+    <!-- End of customer information -->
+        <h1> Flavors</h1>
+        <input type="radio" name="flavors" id="Vanilla">
+        <label> Vanilla </label>
+    <br/>
+        <input type="radio" name="flavors" id="Chocolate">
+        <label> Chocolate</label>
+    <br/>
+        <input type="radio" name="crustStyle" id="Mint">
+        <label> Mint</label>
+   <br/>
+        <h1> Toppings</h1>
+        <input type="checkbox" name="toppings" id="sprinkles">
+        <label> Sprinkles</label>
+    <br/>
+        <input type="checkbox" name="toppings" id="cookieCrumbles">
+        <label> Cookie Crumbles</label>
+    <br/>
+        <input type="checkbox" name="toppings" id="caramel">
+        <label> Caramel</label>
+    <br/>     
+        <input type="checkbox" name="toppings" id="hotFudge">
+        <label> Hot Fudge</label>
+    <br/>       
+        <input type="checkbox" name="toppings" id="M&M">
+        <label> M&M's</label>
+    <br/>       
+        <input type="checkbox" name="toppings" id="fruityPebbles">
+        <label> Fruity Pebbles</label>
+    <br/>
+
+    <H1>Cone Size</H1>
+        <select name="coneSize" id="coneSize">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+        <option value="bowl">Bowl</option>
+    </select>
+    <br/>
+    
+    <h1>Special Instructions</h1>
+        <textarea row="4" cols="40" placeholder="Enter Any Special Instructions!">
+        </textarea>
+    <br/>
+    <button type="submit">Submit Order</button>
+    <button type="reset">Reset</button>
+
+
+    </form>
+
+</body>
+</html>
